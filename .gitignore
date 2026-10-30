@@ -1,0 +1,31 @@
+# .NET build output
+bin/
+obj/
+.vs/
+*.user
+*.suo
+TestResults/
+publish/
+
+# Generated documents (previews and redacted PDFs)
+output*/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+
+# OCR resources
+*.traineddata
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.zip
+__pycache__/
